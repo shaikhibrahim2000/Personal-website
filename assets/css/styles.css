@@ -1090,7 +1090,7 @@ img {
         gap: .5rem;
     }
 
-    .services__container{
+    /* .services__container{
         grid-template-columns: max-content;
         justify-content: center;
     }
@@ -1101,7 +1101,25 @@ img {
 
     .services__modal{
         padding: 0 .5rem;
+    } */
+
+    .services__container {
+        display: grid;
+        grid-template-columns: 1fr; /* Ensures content takes up the full width of the container */
+        justify-content: center; /* Centers content horizontally */
+        gap: 1rem; /* Adds space between grid items */
     }
+    
+    .services__content {
+        max-width: 400px; /* Restricts the maximum width of content */
+        padding: 1rem; /* Adds padding around the content */
+    }
+    
+    .services__modal {
+        padding: 1rem; /* Adds padding inside the modal */
+        max-width: 90vw; /* Ensures modal doesn't exceed the viewport width */
+    }
+    
     
     .project__img{
         width: 200px;
@@ -1173,6 +1191,24 @@ img {
         position: relative;
         top: -110px; 
     }
+
+    .services__container {
+        display: grid;
+        grid-template-columns: 1fr; /* Ensures content takes up the full width of the container */
+        justify-content: center; /* Centers content horizontally */
+        gap: 1rem; /* Adds space between grid items */
+    }
+    
+    .services__content {
+        max-width: 400px; /* Restricts the maximum width of content */
+        padding: 1rem; /* Adds padding around the content */
+    }
+    
+    .services__modal {
+        padding: 1rem; /* Adds padding inside the modal */
+        max-width: 90vw; /* Ensures modal doesn't exceed the viewport width */
+    }
+    
 }
 
 
