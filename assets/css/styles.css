@@ -414,6 +414,8 @@ img {
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+    /* position: relative;
+    top: -20px; */
 }
 
 .about__description{
@@ -1119,6 +1121,15 @@ img {
         text-align: center;
     }
 
+    .about__img{
+        width: 100px;
+        border-radius: .5rem;
+        justify-self: center;
+        align-self: center;
+        position: relative;
+        top: -110px; 
+    }
+
 }
 
 /* For medium devices */
@@ -1152,6 +1163,15 @@ img {
     .project__container{
         height: 450px; /* Set a specific height */
         min-height: 450px; 
+    }
+
+    .about__img{
+        width: 500px;
+        border-radius: .5rem;
+        justify-self: center;
+        align-self: center;
+        position: relative;
+        top: -110px; 
     }
 }
 
@@ -1349,8 +1369,18 @@ img {
         margin-bottom: 3rem;
         font-size: 2.5rem;
     }
+
+    .about__img{
+        width: 500px;
+        border-radius: .5rem;
+        justify-self: center;
+        align-self: center;
+        position: relative;
+        top: -110px; 
+    }
     
 }
+
 
 .contact__container{
     row-gap: 4rem;
@@ -1375,4 +1405,6 @@ img {
     height: 10rem;
     resize: none;
 }
+
+
 
