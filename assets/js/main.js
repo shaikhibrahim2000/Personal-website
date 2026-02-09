@@ -193,9 +193,9 @@ const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
 
-// Ensure dark theme is applied by default
-document.body.classList.add(darkTheme)
-themeButton.classList.add(iconTheme)
+// Default to light theme on first load
+document.body.classList.remove(darkTheme)
+themeButton.classList.remove(iconTheme)
 
 // Previously selected topic (if user selected)
 const selectedTheme = localStorage.getItem('selected-theme')
@@ -261,6 +261,5 @@ const sendEmail = (e) => {
 
 // Add event listener for form submission
 contactForm.addEventListener('submit', sendEmail);
-
 
 
