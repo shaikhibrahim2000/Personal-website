@@ -298,18 +298,13 @@ img {
     color: var(--first-color);
 }
 
-.home_blob{
-    width: 200px;
-    fill: var(--first-color);
-}
-
-.home_blob{
-    transform: translateX(1.5rem);
-}
-
-.home_blob-img{
-    width: 200px;
-    transform: translate(-14px, -25px);
+.home_photo{
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .home_data{
@@ -1441,5 +1436,4 @@ img {
     height: 10rem;
     resize: none;
 }
-
 
